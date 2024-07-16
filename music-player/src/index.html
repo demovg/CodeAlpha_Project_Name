@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="/music-player/src/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="player">
+    <div class="details">
+      <h3 id="title">Song Title</h3>
+      <h4 id="artist">Artist Name</h4>
+    </div>
+    <div class="controls">
+      <button id="prev"><i class="fas fa-backward"></i></button>
+      <button id="play"><i class="fas fa-play"></i></button>
+      <button id="next"><i class="fas fa-forward"></i></button>
+    </div>
+    <div class="progress-container">
+      <div class="progress" id="progress"></div>
+    </div>
+    <audio id="audio"></audio>
+  </div>
+  <script src="/music-player/src/script.js"></script>
+</body>
+</html>
